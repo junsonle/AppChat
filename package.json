@@ -1,0 +1,12 @@
+{
+	"name": "Server_NodeJS",
+	"version": "0.0.1",
+	"private": "true",
+	"dependencies": {
+		"cookie-parser": "^1.4.4",
+		"ejs": "^3.0.1",
+		"express": "^4.17.1",
+		"socket.io": "*",
+		"socketio-file-upload": "^0.7.0"
+	}
+}
