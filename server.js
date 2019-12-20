@@ -8,7 +8,7 @@ app.set("views", "./views");
 var server = require("http").createServer(app);
 var io = require("socket.io").listen(server);
 var fs = require("fs");
-server.listen(process.env.PORT || 3000);
+server.listen(process.env.PORT || 3000 || 9696);
 
 io.on('connect', function (socket) {
 	console.log(socket.id+" Da ket noi!");
